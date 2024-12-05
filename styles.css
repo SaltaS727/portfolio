@@ -1,0 +1,69 @@
+
+body {
+    background-color: #355f2e;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    margin: 0; 
+}
+
+/* Style the table */
+table {
+    border: 1px solid black;
+    border-width: thick;
+    background-color: #a8cd89;
+    border-collapse: collapse; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); 
+    width: auto;
+}
+/* Style the table caption */
+caption {
+    caption-side: top;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Style the ordered list */
+ol {
+    padding-right: 10px;
+    margin: 0;
+    text-align: left; 
+}
+
+/* Style the figure element */
+figure {
+    border: 2px solid #526e48;
+    border-width: thick;
+    margin: 0; 
+    padding: 10px; 
+}
+
+/* Style the figcaption */
+figcaption {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Style the image */
+img {
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+/* Links styling inside the list */
+ol a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ol a:hover {
+    text-decoration: underline;
+}
